@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<appdeployment:Deployment xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:appdeployment="http://www.ibm.com/websphere/appserver/schemas/5.0/appdeployment.xmi" xmi:id="Deployment_1428026415557">
+  <deployedObject xmi:type="appdeployment:ApplicationDeployment" xmi:id="ApplicationDeployment_1428026415557" deploymentId="0" startingWeight="1" binariesURL="$(APP_INSTALL_ROOT)/WIN-F8QH15674T8Node02Cell/JpaExample.ear" useMetadataFromBinaries="false" enableDistribution="true" createMBeansForResources="true" reloadEnabled="false" appContextIDForSecurity="href:WIN-F8QH15674T8Node02Cell/JpaExample" filePermission=".*\.dll=755#.*\.so=755#.*\.a=755#.*\.sl=755" allowDispatchRemoteInclude="false" allowServiceRemoteInclude="false" asyncRequestDispatchType="DISABLED" standaloneModule="false" enableClientModule="false">
+    <targetMappings xmi:id="DeploymentTargetMapping_1428026415557" enable="true" target="ServerTarget_1428026415557"/>
+    <classloader xmi:id="Classloader_1428026415557" mode="PARENT_LAST"/>
+    <modules xmi:type="appdeployment:WebModuleDeployment" xmi:id="WebModuleDeployment_1428026415557" deploymentId="1" startingWeight="10000" uri="JpaExampleWeb.war" classloaderMode="PARENT_LAST" containsEJBContent="0">
+      <targetMappings xmi:id="DeploymentTargetMapping_1428026415558" target="ServerTarget_1428026415557"/>
+      <classloader xmi:id="Classloader_1428026415558"/>
+    </modules>
+    <properties xmi:id="Property_1428026415557" name="metadata.complete" value="false"/>
+  </deployedObject>
+  <deploymentTargets xmi:type="appdeployment:ServerTarget" xmi:id="ServerTarget_1428026415557" name="server1" nodeName="WIN-F8QH15674T8Node02"/>
+</appdeployment:Deployment>
