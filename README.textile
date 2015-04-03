@@ -1,0 +1,21 @@
+h1. Introduction
+
+This is a sample project that leverages the following technologies:
+
+* WebSphere Application Server 8.5
+* JPA 2.0
+* Hibernate
+* Spring MVC
+
+The goal of the project is simply to demonstrate how to integrate these technologies.
+
+For more information, check out my blog post at: http://www.craigstjean.com/2015/04/the-key-combination-to-unlocking-and-integrating-spring-hibernate-jpa-and-websphere/
+
+h2. Project Preparation
+
+# See doc/0001_InitialDdl.sql
+
+h2. License
+
+This code is provided public domain, free of use in any manner.
+
